@@ -7,4 +7,4 @@ RUN apt-get update && apt-get install -y \
 RUN pip install ansible-lint
 
 # Let ansible-lint initialize all dirs
-RUN ansible-lint > /dev/null
+RUN ansible-lint -h > /dev/null
